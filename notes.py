@@ -41,3 +41,70 @@ print(8 // 3)  # Prints 2
 print(12 // 4)  # Prints 3
 print(11 // 4)  # Prints 2
 print(24 // 5)  # Print 4
+
+# ---------
+# Data Types
+# ---------
+print()
+print()
+print(15)  # Integer
+print("seven")  # String
+print(9.81)  # Float
+print(False)  # Boolean
+
+# Modulus (It's a math thing)
+print(14 % 12)  # The answer is 2
+print(13 % 12)  # The answer is 1
+print(25 % 12)  # The answer is 1
+print(7 % 2)
+print(14 % 4)
+print(5 % 3)
+
+# Mixed Review
+print()
+print()
+print(3 ** 3)  # 27
+print(15 // 4)  # 3
+print(13 % 4)  # 1
+print(18 // 10)  # 1
+
+
+# -----------
+# Variables
+# -----------
+
+print()
+print()
+the_number = 3
+print("The number is: ")
+print(the_number)
+the_number = the_number + 2
+the_number = the_number * 100
+print("The number is: ")
+print(the_number)
+
+print()
+screens = 4
+screens + 2
+print(screens)
+# This prints 4
+# The "=" is the assignment operator
+
+account = 150
+account += 50  # account = account + 50
+print(account)
+
+balance = 5000
+balance -= 1000
+balance *= 2
+print(balance)
+
+balance /= 4
+print(balance)
+
+seconds = 9999
+minutes = seconds // 60
+seconds_left = seconds % 60
+print("Time remaining:")
+print(minutes)
+print(seconds_left)
