@@ -36,3 +36,48 @@ def add_stuff(num1, num2):
 # This is a local variable
 # It only exists inside of the function
 
+def subtract(num1, num2):
+    print("SUBTRACTING {} and {}".format(num1, num2))
+    return num1 - num2
+
+
+age = subtract(10, 2)
+print(age)
+
+
+def f(x):
+    return x**2 + 3*x + 9
+
+
+print(f(43))
+print(f(750))
+print(f(53768435768468768768654676546765767637))
+
+
+def divisible_by_56435(number):
+    if number % 56435 == 0:
+        return True
+    return False
+
+
+def divisible_by_2(number):
+    return number % 2 == 0
+
+
+for i in range(1000000):
+    if divisible_by_2(i) and divisible_by_56435(i):
+        print(i)
+
+
+def can_sleep_in(weekday, vacation):
+    """This function returns true if we can sleep in"""
+    if vacation:
+        return True
+    elif not weekday:
+        return True
+    return False
+
+# Alternate Answer
+#     if  vacation or not weekday:
+#         return True
+#     return False
